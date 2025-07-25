@@ -50,7 +50,9 @@ So lets start discussing a few Terminoligies.
 Since in Python, if a file doesnt already exists but it is opened in "write" or "append" mode, it will automatically create that file, this will handle our **FileNotFoundError**.
 
 5. "else": However, if our block of code written inside "try" did indeed worked and didn't provide us with any error, our interpreter will directly jump to the else block, skipping except.
-   E.g: else:
-               print(data.read())
+   E.g:
+   ```python
+   else:
+         print(data.read())
 
 
