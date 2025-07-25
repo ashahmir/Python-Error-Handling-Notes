@@ -37,9 +37,10 @@ So lets start discussing a few Terminoligies.
 ---
 1. "try": This keyword allows the program to run a specific block of code and all the remaining terminologies related to error handling rely on this.
    E.g: try:
+   ```python
              data = open("file.txt")
    
-2. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
+3. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
    Referring to our example above, If a file named "file.txt" doesn't exists, the interpreter now moves to the lines shown below.
    E.g: except:
                data = open("file.txt", "w")
@@ -49,6 +50,4 @@ So lets start discussing a few Terminoligies.
    E.g: else:
                print(data.read())
 
-    ```python
-    def hello_world():
-        print("Hello, GitHub!")
+
