@@ -42,7 +42,6 @@ So lets start discussing a few Terminoligies.
 2. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
    Referring to our example above, If a file named "file.txt" doesn't exists, the interpreter now moves to the lines shown below.
    E.g: except:
-               ```python
                data = open("file.txt", "w")
    Since in Python, if a file doesnt already exists but it is opened in "write" or "append" mode, it will automatically create that file, this will handle our **FileNotFoundError**.
 
