@@ -32,9 +32,9 @@ However I am writing these notes to help you connect more with these errors.
 Instead of Rage Quitting after encountering one of them, I want you to use them yourself.
 
 Doing so will further improve your codes and make them look more professional.
----
-So lets start discussing a few terminoligies.
 
+So lets start discussing a few terminoligies.
+---
 1. "try": This keyword allows the program to run a specific block of code and all the remaining terminologies related to error handling rely on this.
    E.g: try:
              open("file.txt")
