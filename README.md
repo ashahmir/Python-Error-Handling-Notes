@@ -36,8 +36,7 @@ Doing so will further improve your codes and make them look more professional.
 So lets start discussing a few Terminoligies.
 ---
 1. "try": This keyword allows the program to run a specific block of code and all the remaining terminologies related to error handling rely on this.
-   E.g: try:
-   ```python
+   E.g:    ```pythontry:
              data = open("file.txt")
    
 3. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
