@@ -43,11 +43,13 @@ So lets start discussing a few Terminoligies.
    
 3. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
    Referring to our example above, If a file named "file.txt" doesn't exists, the interpreter now moves to the lines shown below.
-   E.g: except:
-               data = open("file.txt", "w")
-   Since in Python, if a file doesnt already exists but it is opened in "write" or "append" mode, it will automatically create that file, this will handle our **FileNotFoundError**.
+   E.g:
+   ```python
+   except:
+         data = open("file.txt", "w")
+Since in Python, if a file doesnt already exists but it is opened in "write" or "append" mode, it will automatically create that file, this will handle our **FileNotFoundError**.
 
-4. "else": However, if our block of code written inside "try" did indeed worked and didn't provide us with any error, our interpreter will directly jump to the else block, skipping except.
+5. "else": However, if our block of code written inside "try" did indeed worked and didn't provide us with any error, our interpreter will directly jump to the else block, skipping except.
    E.g: else:
                print(data.read())
 
