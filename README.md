@@ -48,3 +48,7 @@ So lets start discussing a few Terminoligies.
 4. "else": However, if our block of code written inside "try" did indeed worked and didn't provide us with any error, our interpreter will directly jump to the else block, skipping except.
    E.g: else:
                print(data.read())
+
+    ```python
+    def hello_world():
+        print("Hello, GitHub!")
