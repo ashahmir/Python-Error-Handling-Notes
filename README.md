@@ -4,6 +4,8 @@ While coding in python you might have encountered different type of errors.
 
 Some may have been deliberate, maybe to check your code on some specific values, while others might have occured without you expecting them.
 
+Below I have listed down some of those erros. You might know some of them from your past experiences, while rest may look unfamiliar to you.
+
 | **Error Name**        | **Simple Definition**                                                                          |
 | --------------------- | ---------------------------------------------------------------------------------------------- |
 | `SyntaxError`         | Happens when the code is written incorrectly (like missing a colon or parentheses).            |
@@ -21,3 +23,24 @@ Some may have been deliberate, maybe to check your code on some specific values,
 | `RuntimeError`        | A generic error that occurs during program execution, usually when nothing else fits.          |
 | `RecursionError`      | Happens when a function calls itself too many times without stopping.                          |
 | `StopIteration`       | Raised to signal the end of a loop from an iterator.                                           |
+
+Now these errors might trigger you up if you are writing a piece of code with full dedication and suddenly one of these
+bad boys pop up to destroy all the Love for coding you have built in years.
+
+However I am writing these notes to help you connect more with these errors.
+
+Instead of Rage Quitting after encountering one of them, I want you to use them yourself.
+
+Doing so will further improve your codes and make them look more professional.
+
+So lets start discussing a few terminoligies.
+
+1. "try": This keyword allows the program to run a specific block of code and all the remaining terminologies related to error handling rely on this.
+   E.g: try:
+             open("file.txt")
+   
+2. "except": Now incase the piece of code written in the "try" block gives any error, the program will go straight to the except part of the code.
+   Referring to our example above, If a file named "file.txt" doesn't exists, the interpreter now moves to the lines shown below.
+   E.g: except:
+                 open("file.txt", "w")
+   Since in Python, if a file doesnt already exists but it is opened in "write" or "append" mode, it will automatically create that file.
