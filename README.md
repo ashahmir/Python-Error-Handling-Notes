@@ -80,15 +80,15 @@ Through raise you can create an error by yourself. E.g:
    raise TypeError("Forbidden Type Conversion")
 ```
 This will show you an error in your console specifying whatever type and message for that error you have written. 
-
+---
 This can be helpful for you as a developer if:
 
-   Something invalid or unexpected occurs.
+   •Something invalid or unexpected occurs.
    
-   You want to enforce rules.
+   •You want to enforce rules.
    
-   You're designing APIs and want others to follow required implementations.
+   •You're designing APIs and want others to follow required implementations.
    
-   You want to create more descriptive, domain-specific errors.
+   •You want to create more descriptive, domain-specific errors.
 
 
