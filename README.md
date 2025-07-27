@@ -80,8 +80,9 @@ Through raise you can create an error by yourself. E.g:
    raise TypeError("Forbidden Type Conversion")
 ```
 This will show you an error in your console specifying whatever type and message for that error you have written. 
----
+
 This can be helpful for you as a developer if:
+---
 
    •Something invalid or unexpected occurs.
    
